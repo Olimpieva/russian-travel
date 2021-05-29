@@ -1,0 +1,26 @@
+
+.place__title {
+    width: 90%;
+    margin: auto;
+    font-size: 10vw;
+    line-height: 1.09375;
+    font-weight: 900;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .place__title {
+      width: 330px; /* it's for solving the line break problem - "Куршская коса" */
+      font-size: 42px;
+      line-height: calc(46/42);
+      font-weight: 900;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .place__title {
+      width: 100%;
+      margin: 0;
+      font-size: 72px;
+      line-height: calc(76/72);
+    }
+  }

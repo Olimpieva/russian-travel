@@ -1,3 +1,12 @@
 .header__lang {
+   margin-bottom: 6px;
    display: flex;
-}
+   align-items: flex-end;
+   justify-content: flex-start;
+ }
+
+ @media screen and (min-width: 768px) {
+   .header__lang {
+     margin-bottom: 0;
+   }
+ }

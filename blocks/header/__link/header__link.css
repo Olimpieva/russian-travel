@@ -1,11 +1,18 @@
 .header__link {
     margin-right: 18px;
-    font-size: 24px;
-    line-height: 1.2;
-    font-weight: normal;
-    
-}
+    font-size: 5.625vw;
+    line-height: calc(20/18);
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header__link {
+      font-size: 24px;
+      line-height: 1.6;
+    }
+  }
 
-.header__link:last-child {
+  .header__link:last-child {
     margin-right: 0;
-}
+  }
