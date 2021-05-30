@@ -1,9 +1,10 @@
 .header__link {
     margin-right: 18px;
-    font-size: 5.625vw;
+    text-decoration: none;
+    font-size: 18px;
     line-height: calc(20/18);
     color: #FFF;
-    text-decoration: none;
+    transition: opacity linear 0.25s;
   }
   
   @media screen and (min-width: 768px) {
@@ -15,4 +16,8 @@
 
   .header__link:last-child {
     margin-right: 0;
+  }
+
+  .header__link:hover {
+    opacity: 0.8;
   }

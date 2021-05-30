@@ -8,6 +8,7 @@
 Вы можете наблюдать следующие файлы и директории:
 
       blocks/               исходные css-файлы
+      fonts/                исходные шрифты
       images/               исходные изображения
       vendor/               внешние стили
       pages/                основной css-файл
@@ -47,6 +48,7 @@ STRUCTURE
 You will see the following files and directories:
 
       blocks/               source css files
+      fonts/                source fonts
       images/               source images
       vendor/               external css files
       index.css             main css file
